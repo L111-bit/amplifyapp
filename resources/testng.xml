@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite" parallel="tests" verbose="1">
+  
+  
+  
+  
+  <test thread-count="1" name="make my trip" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.MyTrip.Calculator"/>
+    </classes>
+   </test> <!-- Test -->  
+    
+    
+   
+</suite> <!-- Suite -->
